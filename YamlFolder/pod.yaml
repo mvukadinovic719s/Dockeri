@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: python
+  labels:
+    name: labela
+spec:
+  containers:
+  - name: python
+    image: calije11/prvi_domaci:latest
+    ports:
+    - containerPort: 8081
